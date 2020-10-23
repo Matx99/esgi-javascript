@@ -31,7 +31,7 @@ function snake_case(chaine){
     if(typeof chaine !== "string" || chaine === "") return "";
     chaine = chaine.toLowerCase();
     chaine = chaine.split(" ");
-    return chaine.join("-");
+    return chaine.join("_");
 }
 
 console.log(snake_case("BoNjOuR La FrAnCe"));
