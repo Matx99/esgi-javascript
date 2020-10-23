@@ -3,7 +3,7 @@ function ucfirst(chaine){
     return chaine.charAt(0).toUpperCase() + chaine.slice(1);
 }
 
-console.log(ucfirst('bonjour la France'));
+// console.log(ucfirst('bonjour la France'));
 
 function capitalize(chaine){
     if(typeof chaine !== "string" || chaine === "") return "";
@@ -14,7 +14,7 @@ function capitalize(chaine){
     return chaine.join(" ");
 }
 
-console.log(capitalize("bonjour la france"));
+// console.log(capitalize("bonjour la france"));
 
 function camelCase(chaine){
     if(typeof chaine !== "string" || chaine === "") return "";
@@ -25,7 +25,7 @@ function camelCase(chaine){
     return chaine.join("");
 }
 
-console.log(camelCase("bonjour la france"));
+// console.log(camelCase("bonjour la france"));
 
 function snake_case(chaine){
     if(typeof chaine !== "string" || chaine === "") return "";
@@ -34,6 +34,6 @@ function snake_case(chaine){
     return chaine.join("_");
 }
 
-console.log(snake_case("BoNjOuR La FrAnCe"));
+// console.log(snake_case("BoNjOuR La FrAnCe"));
 
 
